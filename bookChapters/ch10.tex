@@ -1,0 +1,75 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{siunitx}
+% I should add some multicols stuff to the final study guide. 
+\author{Jeffrey Wubbenhorst}
+\title{Chapter 10}
+\begin{document}
+\maketitle
+
+\begin{itemize}
+\item To describe rotation of a rigid body about a fixed axis (rotation axis), we assume a reference line is fixed in the body, perpendicular to the axis and rotating with the body. The angular position $\theta$ of the line is measured relative to fixed direction, and is given as $\theta=\frac{s}{R}$, where $s$ is the arc length, and $R$ is the radius. 
+
+\item Angular displacement is given as $\Delta\theta=\theta_2-\theta_1$, where $\theta$ is positive for counterclockwise rotation and negative for counterclockwise. \textit{Note: NOT to be treated as a vector}
+\item Angular velocity is given as $\omega_{avg}=\frac{\Delta\theta}{\Delta t}, \omega=\frac{d\theta}{dt}$, which are both vectors, wit direction given by the right-hand rule. 
+\item Angular acceleration is given as $\frac{\Delta\omega}{dt}$
+\item Constant angular acceleration ($\alpha=\mbox{constant}$ has properties that adhere to the following kinematic equations: \\ 
+% this could be prettier 
+$$\omega=\omega_0+\alpha t $$ 
+$$ \omega^2=\omega_0^2+2\alpha(\theta-\theta_0) $$
+$$ \theta-\theta_0=\omega_0 t+\frac{1}{2}\alpha(\theta-\theta_0) $$ 
+$$ \theta-\theta_0=\frac{1}{2}(\omega_0+\omega )$$ 
+$$\theta-\theta_0=\omega t-\frac{1}{2} at^2$$
+% 10.3
+\item A point in a rigid rotating body at a perpendicular distance $r$ from the rotation axis, moves in a circle with radius $r$. If the body rotates through an angle $\theta$, the point moves along an arc with length $s$ given by $s=\theta r$. 
+
+\item Linear velocity is tangent to circle; point's linear speed is given by $v=\omega R$, where $\omega$ is the angular speed of the body.
+\item The linear acceleration $\vec{a}$ of the point has both tangential and radial components. The tangential component is $a_r=\frac{v^2}{r}=\omega^2r$. \textit{Note that this quantity is given in radians.}
+
+\item If a point moves in uniform circular motion, the period $T$ is given as $T=\frac{2\pi r}{v}=\frac{2\pi}{\omega}$
+% 10.4
+\item Kinetic energy of a rigid body rotating about a fixed axis is given by $k=\frac{1}{2}I\omega^2$, where $I$ is the rotational inertia of the body, defined as $I=\sigma m_i r^2$ for a system of particles 
+\item $I$ is the rotational inertia (also known as the moment of inertia with respect to the axis of rotation. The SI unit for $I$ is the kg m$^2$  \\ 
+% 10.5  
+\item $I$ is the rotational inertia of a body defined as $I=\sum m_ir^2$ for a system of discrete particles and defined as $I=\int r^2dm$ for a body with $r_i$ represent the perpendicular distance from the axis of rotation to each mass element in the body. 
+\item The parallel-axis theorem states that the rotational inertia $I$ of a body about any axis to that of the same body about a parallel axis through the center of mass is given as $I=I_{com}+Mh^2$, where $h$ is the perpendicular distance between the two axes, and $I_{com}$ is the rotational inertia of the body about the axis through the com. $h$ can also be described as the distance the actual rotation axis has been shifted from the rotational axis through the com. 
+% 10.6
+% \item For a force $\vec{F}$ applied to a body , the ability of $\vec{F}$ to rotate the body depends on both the magnitude of % I don't think I'm going to need this 
+\item Torque ($\tau$) is defined as $\tau=(r)(F\sin \theta)$ where $\theta$ is the angle between $\vec{F}$ and $\vec{r}$ (the position vector relative to the rotation axis). The units of torque are Newtons-meter ($N\dot m$). 
+% 10.7 
+\item The rotational analog of Newton's second law is $\tau_{net}=I\alpha$
+% section 10.8
+\item Work is defined rotationally as $W=\int_{\theta i}^{\theta} \tau d\theta$ 
+\item Power is given as $P=\frac{dW}{dt}=\tau\omega$ 
+\item When $\tau$ is constant, the integral reduces to $W=\tau (\theta(\theta_r-\theta_i)$
+\item The work-energy theorem for rotating bodies is given as $\delta k=k_f-k_i=\frac{1}{2}I\omega_i^2=W$ where $\omega_i$ and $\omega_f$ are the angular speeds of the body before and after the work is done. 
+\item Below are corresponding relations for translational and rotational motion: 
+\begin{table}
+\centering
+\begin{tabular}{|lc|lr|}\hline 
+\textbf{Pure translation} & & \textbf{Fixed Direction} \\ \hline \hline 
+Position & $x$ & Angular position & $\theta$ \\ 
+Velocity & $v=dx/dt$ & Angular velocity $\omega=d\theta /dt$ \\ 
+Acceleration & $a=dv/dt$ & Angular acceleration & $\alpha=d\omega/dt$ \\ 
+Mass & m & Rotational Inertia & $I$ \\ 
+Newton's second law & $F_net=ma$ & Newton's second law & $\tau_{net}=I\alpha$ \\ 
+Work & $W=\int F dx$ & work $W=\int \tau d\theta$ \\ 
+Kinetic energy & $K=\frac{12}{2}mv^2$ & Kinetic energy & $K=\frac{1}{2}I\omega^2$ \\ 
+Power (constant force) & $P=Fv$ & Power (constant torque) & $P=\tau\omega$ \\ 
+Work-kinetic energy theorem & $W=\Delta K$ & work-kinetic energy theorem & $W=\Delta K$ \\ \hline 
+\end{tabular}
+\caption{Corresponding relations}
+
+\end{table}
+
+ % info on page 57
+ % I think I'm done here. 
+
+ 
+\end{itemize}
+
+\end{document}

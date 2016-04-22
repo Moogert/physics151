@@ -1,0 +1,103 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+% \usepackage{siunitx}
+\usepackage{amssymb}
+\author{Jeffrey Wubbenhorst}
+\title{Physics Midterm 1}
+\include{color}
+\begin{document}
+
+\maketitle
+
+% Note: I need to format this better. (Margins are too wide, as is font, can probably use multiple columns...) 
+
+ %{\Huge {\color{red} no}}
+
+\begin{itemize}
+
+% chapter 2: 
+
+\item 
+The following five equations describe the motion of a particle with constant acceleration, and don't work anywhere else: 
+\begin{itemize}
+\item $v=v_0+at$ 
+\item $x-x_0=v_0t+\frac{1}{2}at^2$ 
+\item $v^2=v_0^2+2a(x-x_0)$ 
+\item $x-x_0=\frac{1}{2}(v_0+v)t$ 
+\item $x-x_0=vt-\frac{1}{2}at^2$
+
+\end{itemize}
+
+% chapter 3: 
+
+\item Scalars have only magnitude. Vectors have both magnitude and direction. 
+
+\item Two vectors $\vec{a}$ and $\vec{b}$ may be added geometrically by drawing them to a common scale and placing them head to tail. The vector connecting the tail of the first to the head of the second is the vector sum $\vec{s}$. Vector addition is commutative and obeys the associative law. 
+
+\item The components of a a two-dimensional vector $\vec{a}$ are given as $a_x=\cos \theta \mbox{ and } a_y=a\sin \theta$ 
+
+\item Magnitude and orientation of a vector are given as $a=\sqrt{a_x^2+a_y^2} \mbox{ and } \tan \theta=\frac{a_y}{a_x}$
+
+% 3.2 
+\item Unit vectors $\hat{i},\hat{j},\hat{k}$ have magnitudes of unity and are directed in the positive directions of the $x,y,\mbox{ and } x$ axes. Unit vectors are defined as $\hat{v}\equiv \frac{v}{|v|}$
+
+% 3.3 
+
+\item The scalar (or dot product) of two vectors $\vec{a} \mbox{ and } \vec{b}$ is written $\vec{a} \dot \vec{b}$ and is the scalar quantity given by $ab\cos \theta$ where $\theta$ is the angle between the directions of $\vec{a} \mbox{ and } \vec{b}$. 
+\item The vector (or cross) product of two vectors is a vector whose magnitude is given as $c=ab\sin\theta$. The rest of it is ugly and we do not care. 
+
+% chapter 4: 
+
+
+\item Projectile motion for an object in flight: 
+\begin{itemize}
+\item $1x-x_0=(v_0\cos \theta _0)t$ \\ 
+\item $ y-y_0=(v_0\sin \theta _0)t-\frac{1}{2}gt^2$ \\ 
+\item $v_y=v_0\sin \theta _0=-gt$ \\ 
+\item $v_y^2=(v_0\sin \theta _0 ^2)-2g(y-y_0)$ \\ 
+\end{itemize}
+
+The trajectory (path) of a particle in projectile motion is parabolic and is given by 
+$y=(tan\theta _0)x-\frac{gx^2}{2(v_0\cos \theta _0)^2}$
+if $x_0$ and $y_0$ are 0. 
+
+\item The particle's horizontal range $R$ (distance from launch to landing assuming both points are at the same height) is given as $R=\frac{v_0^2}{g}\sin 2\theta _0$
+
+% \item The horizontal range $R$ is maximum for a launch angle of \ang{45}
+
+% 4.5
+
+\item A particle is in uniform circular motion if it travels around a circle or a circular arc at constant (uniform) speed. 
+
+\item The magnitude of the centripetal acceleration is given as $a=\frac{v^2}{r}$ 
+\item A particle in uniform circular motion will the circumference of the circle in time $T=\frac{2\pi r}{v}$. 
+
+% 4-6
+
+\item When two frames of reference $A$ and $B$ are moving relateive to each other at constant velocity, the velocity of a particle $P$ as measured by an observer in frame $A$ usually differs from that measured from frame $B$. The two measured velocities are related by $\vec{V}_{PA}=\vec{V}_{PB}+\vec{V}_{BA}$ where $\vec{V}_{BA}$ is the velocity of $B$ with respect to $A$. 
+
+% chapter 5: 
+\item $1 \mbox{N}=1 kg\dot m/s^2$d
+
+
+% chapter 6: 
+
+\item If a body does not slide, the frictional force is a static frictional force $\vec{F_s}$. If there is sliding, the frictional force is a kinetic frictional force $\vec{F_k}$. 
+\item If a body does not move, the static frictional force $\vec{F_s}$ and the component of $\vec{F}$ parallel to the surface are equal in magnitude, and $\vec{F_s}$ is directed opposite that component. 
+\item The magnitude of $\vec{f_s}$ has a maximum value $f_{s,max}\mu f_N$. 
+\item If a particle moves in a circle or circular arc of radius $R$ at constant speed $v$, the particle is said to be in uniform circular motion. It then has a centripetal acceleration $\vec{a}$ with magnitude given by $a=\frac{v^2}{R}$, which is directed inwards towards the center of the circle. \textbf{mnemonic: ``ForMoV$^2$eR"}
+
+\item Kinetic energy associated with the motion of a particle of mass $m$ and speed $v$ is $k=\frac{1}{2}mv^2$ 
+
+\item Work is defined as the engery transferred to or from an object via a force acting on that object. Energy transferred to the object is positive work, and from the object, negative work. 
+\item Work done on a particle by a constant force $\vec{F}$ during displacement $\vec{d}$ is $w=Fd\cos \theta = \vec{F}\dot \vec{d}$ 
+\item work done by the gravitational force on a particle-like object of mass $m$ is given as $W_g=mgd\cos \theta$ where $\theta$ is the angle between $\vec{F_g}$ and $\vec{d}$. 
+\item The force $\vec{F_s}$ from a spring is $\vec{f_s}=-k\vec{d}$ (Hooke's Law)
+\item Work done by a spring is given as $W_s=\frac{1}{2}(kx_{i}^2-kx_f^2)$
+
+\end{itemize}
+
+
+\end{document}

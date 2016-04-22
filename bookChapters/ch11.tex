@@ -1,0 +1,56 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{siunitx}
+% I should add some multicols stuff to the final study guide. 
+\author{Jeffrey Wubbenhorst}
+\title{Chapter 11}
+\begin{document}
+% this is done 
+\maketitle
+
+\begin{itemize}
+% 11.1
+\item For a wheel at radius R rolling smoothly, $V_{com}=\omega R$, where $v_{com}$ is the linear speed of the wheel's center mass and $\omega$ is the angular speed of the wheel about the center. 
+
+\item The wheel may also be viewed as rotating instantaneously about the point $P$ of the surface that the wheel is in contact with. 
+
+\item Motion of any round body rolling smoothly over a surface can be separated into purely rotational and purely translational mechanics. % translate this sentence. 
+% 11.2
+\item A smoothly rolling wheel has kinetic energy $K=\frac{1}{2}I_{com}\omega^2+\frac{1}{2}MV_{com}^2$, where $I_{com}$ is the rotational inertia of the wheel about its center o mass and $M$ is the mass of the wheel. 
+
+\item If the wheel is being accelerated but it still rolling smoothly (assuming no sliding), the acceleration of the center of mass $\vec{a}_{com}$ is related to the angular acceleration $\alpha$ by about the center with $a_{com}=\alpha R$. 
+
+\item If he wheel rolls smoothly down a ramp of angle $\theta$, its acceleration along an $x$ axis extending up the ramp is $a_{com,x}=-\frac{g \sin\theta}{1+I_{com}/MR^2}$
+% 11.3
+\item A yo-yo can be treated as a wheel rolling along an inclined plane at a 90-degre angle. %  $\theta=\degree$ figure out how to siunitx to get a degree sign you would think this would be easier 
+% 11.4 "torque revisited 
+\item In three dimensions, torque $\vec{\tau}$ is a vector quantity derived relateive to a fixed point (usually an origin); it is $\vec{\tau}=\vec{r}\times\vec{F}$ where $\vec{F}$ is a force applied to a particle and $\vec{r}$ is a position vector locating the particle relative to the fixed point. 
+\item The magnitude of $\vec{\tau}$ is given by $\tau=r F \sin \theta=r F \perp=r\perp F$, where $r\perp$ is the moment arm of $\vec{F}$. 
+\item The direction of $\vec{\tau}$ is given by the right-hand rule for cross products. 
+\item Torque is now redefined for any path relative to a fixed point [rather than a fixed axis]
+% , where $\theta$ is the angle between $\vec{F}\mbox{ and } \vec{r}, F\perp \mbox{ is the component of } \vec{F} 
+% I don't think I need all of that right now. How do I get a perpendicular vector? [not dealing with this right now] 
+% 11.5 angular momentum 
+\item Angular momentum $\vec{\ell}$ of a particle with linear momentum $\vec{p}$, mass $m$, and linear velocity $\vec{v}$ is a vector quantity defined relative to a fixed point (usually an origin) as $\vec{\ell}\vec{r}\times\vec{p}=m(\vec{r}\times\vec{v}$
+\item The magnitude of $\vec{\ell}$ is given by $\ell=rmv\sin\theta$ where $\theta$ is the smaller angle between $\vec{r}$ and $\vec{p}$ when these two vectors are tail-to-tail. Note that angular momentum is has meaning only with respect to a specified origin. Angular momentum's direction is always perpendicular to the plane by position and linear momentum vectors $\vec{r} \mbox{ and p}$
+% 11.6
+\item Newton's second law for a particle can be written in angular form as $\vec{\tau}_{net}=\frac{d\vec{\ell}}{dt}$ where $\vec{\tau}$ is the net torque acting on the particle and $\vec{\ell}$ is the angular momentum of the particle. 
+% 11-7
+\item Angular momentum $\vec{L}$ of a system of particles is a vector sum of the angular momenta of the individual particles: $\vec{L} =\vec{\ell}_1+\vec{\ell}_2+...+\vec{\ell}_n=\sigma^n_{i=1}\vec{\ell}_i$ 
+\item The time time of change of the angular momentum is equal to the net external torque on the system (the vector sum of the torques due to interactions of the particles on the system with particles external to the system): $\vec{\tau}_{net}=\frac{\vec{L}}{dt}$ 
+\item For a rigid body rotating about a fixed axis, the component of its angular momentum parallel to the rotation axis is $L=I\omega$
+% 11.8
+\item Angular momentum $\vec{L}$ of a system remains constant if the net external torque acting on the system is zero: 
+$\vec{L}=C, \vec{L}_i=\vec{L}_f$ for an isolated system. 
+% 11.9 precession of a gyroscope
+\item A spinning gyroscope can precess through about a vertical axis through its support at the rate $\Omega=\frac{Mgr}{I\omega} \mbox{ where } M$ is the gyroscope's mass, $I$ is the rotational inertial, and $\omega$ is the spin rate. 
+
+
+
+\end{itemize}
+
+\end{document}
